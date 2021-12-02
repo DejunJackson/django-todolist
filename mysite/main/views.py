@@ -32,6 +32,7 @@ def home(request):
     return render(request, "main/home.html", {})
 
 def create(request):
+    
     if request.method == "POST":
 
         # Sets values of form to whatever is received
